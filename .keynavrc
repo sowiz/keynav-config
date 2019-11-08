@@ -1,0 +1,32 @@
+# Start/End
+alt+semicolon start, windowzoom
+Escape end
+# NB, On some desktops using the windowzoom command without an active window will cause keynav to crash.
+
+# Move
+m warp
+h cut-left
+j cut-down
+k cut-up
+l cut-right
+alt+h cut-left, cut-down
+alt+j cut-left, cut-up
+alt+k cut-right, cut-up
+alt+l cut-right, cut-down
+
+# Click
+space warp, click 1
+shift+space warp, click 3
+
+# Zoom to cursor
+c cursorzoom 100 100
+
+# Start drag holding the left mouse button
+v drag 1
+
+# Copy/Paste
+y end, sh "xdotool key ctrl+c"
+p end, sh "xdotool key ctrl+v"
+
+# History
+semicolon history-back
