@@ -1,7 +1,7 @@
 # Start/End
 alt+semicolon start, windowzoom
 Escape end
-# NB, On some desktops using the windowzoom command without an active window will cause keynav to crash.
+q end
 
 # Move
 m warp
@@ -16,6 +16,7 @@ alt+l cut-right, cut-down
 
 # Click
 space warp, click 1
+ctrl+space warp, click 1 ctrl
 shift+space warp, click 3
 
 # Zoom to cursor
